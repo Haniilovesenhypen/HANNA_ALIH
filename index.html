@@ -1,0 +1,71 @@
+<style>* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+
+.item {
+  width: 200px;
+  height: 300px;
+  list-style-type: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 0 20px 30px rgba(255,255,255,0.3) inset;
+  transition: transform 0.1s, left 0.75s, top 0.75s, width 0.75s, height 0.75s;
+
+  &:nth-child(1), &:nth-child(2) {
+    left: 0;
+    top: 0;
+    width: 100%;</style>
+
+<main>
+  <ul class='slider'>
+    <li class='item' style="background-image: url(https://raw.githubusercontent.com/KENZO577/forher/main/zambo/c05b2850-b3ed-47f2-adcc-b8ddf7c49ad5.jpg)">
+      <div class='content'>
+        <h2 class='title'>"Rainbow Mosque"</h2>
+        <p class='description'> Rainbow Mosque is known for its vibrant exterior with the colors symbolizing peace.
+ </p>
+        <button>Read More</button>
+      </div>
+    </li>
+    <li class='item' style="background-image: url('https://raw.githubusercontent.com/KENZO577/forher/main/zambo/c8cf3626-1c6b-47d2-8697-8759a9a72357.jpg')">
+      <div class='content'>
+        <h2 class='title'>"R.T. Lim Boulevard"</h2>
+        <p class='description'> A centuries-old fortress that played a crucial role in defending Zamboanga against external threats.</p>
+        <button>Read More</button>
+      </div>
+    </li>
+    <li class='item' style="background-image: url(https://raw.githubusercontent.com/KENZO577/forher/main/zambo/a94bb5ea-33fb-4f7a-bce1-fd95b043af8d.jpg)">
+      <div class='content'>
+        <h2 class='title'>"Fort Pilar"</h2>
+        <p class='description'> A 17th century military defense fortress buit by the spanish colonial government in Zamboanga City</p>
+        <button>Read More</button>
+      </div>
+    </li>
+    <li class='item' style="background-image: url(https://raw.githubusercontent.com/KENZO577/forher/main/zambo/a56da8a9-79b6-44d0-926d-a67688f57184.jpg)">
+      <div class='content'>
+        <h2 class='title'>"Paseo Del Mar"</h2>
+        <p class='description'>
+        One of the most stunning park in Zamboanga City
+        </p>
+        <button>Read More</button>
+      </div>
